@@ -15,7 +15,7 @@
 
 body {
   background-color: var(--preto);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 
@@ -48,7 +48,7 @@ header nav a:hover {
   font-size: 16px;
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%), url('./../img/bean-cover.jpg');
 
-  height: 400px;
+  height: 500px;
   background-size: cover;
 
   display: flex;
@@ -101,4 +101,8 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
 }
